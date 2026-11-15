@@ -9,7 +9,7 @@
 ## 빠른 시작 (도커 추천)
 
 ```bash
-git clone --recursive https://github.com/LHG93/embedded-os-examples.git
+git clone --recursive https://github.com/hugree-lab/embedded-os-examples.git
 cd embedded-os-examples
 docker compose run --rm dev      # 처음 한 번은 이미지 빌드로 몇 분 걸림
 ./scripts/run_all.sh             # 컨테이너 안에서 모든 예제 빌드 · 실행
